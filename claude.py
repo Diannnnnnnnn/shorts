@@ -583,7 +583,7 @@ def create_advanced_ui():
         }
         
         .feature-card {
-    background: #ffffff; /* putih polos */
+    background: #000000; /* putih polos */
     padding: 1.5rem;
     border-radius: 12px;
     border-left: 4px solid var(--accent-color); /* tetap ada garis aksen */
