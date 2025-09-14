@@ -583,18 +583,19 @@ def create_advanced_ui():
         }
         
         .feature-card {
-            background: linear-gradient(145deg, #f8f9fa, #e9ecef);
-            padding: 1.5rem;
-            border-radius: 12px;
-            border-left: 4px solid var(--accent-color);
-            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
-        }
-        
-        .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-        }
+    background: #ffffff; /* putih polos */
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--accent-color); /* tetap ada garis aksen */
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
         
         .video-info-card {
             background: linear-gradient(145deg, #e3f2fd, #bbdefb);
